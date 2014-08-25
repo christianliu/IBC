@@ -1,0 +1,298 @@
+/*body{
+color:black;
+font-family:Courier;
+font-size:13px;
+}*/
+body input{
+font-family:Courier;
+font-size:13px;
+border:0px;
+outline:none;
+width:95%;
+color:#5CE68A;
+padding:0px;
+margin:0px;
+padding-left:5px;
+}
+body input.checkbox{
+width:12px;
+padding-right:5px;
+}
+body .confirm{
+color:#ff0000;
+}
+body{
+margin:0px;
+padding:0px;
+background:white;
+}
+.container{
+position:absolute;
+height:50%;
+width:100%;
+background-position:center;
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+   -moz-background-size:cover;
+     -o-background-size:/*@@prefixmycss->No equivalent*/;
+        background-size:cover;
+background-repeat:no-repeat;
+}
+.left-col {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.right-col {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.backstretch img {
+  opacity: 0.8;
+} 
+.twostretch img {
+  z-index: 2000;
+}   
+
+.frame{
+background:white;
+width:100%;
+position:absolute;
+top:50%;
+height:50%;
+/*transition*/
+-webkit-transition:background 0.8s;
+   -moz-transition:background 0.8s;
+     -o-transition:background 0.8s;
+        transition:background 0.8s;
+opacity:1;
+padding:20px;
+box-sizing:border-box;
+color:black;
+}
+.frame .links a{
+color:#aaa;
+font-family:"HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:bolder;
+font-size:1.5em;
+margin-right:20px;
+text-decoration:none;
+text-transform:uppercase;
+/*transition*/
+-webkit-transition:0.3s;
+   -moz-transition:0.3s;
+     -o-transition:0.3s;
+        transition:0.3s;
+line-height:2.5em;
+}
+.frame .links a:hover{
+color:white;
+}
+.frame .links a.non-hover:hover{
+color:#777;
+}
+.portfolio{
+position:relative;
+top:0;
+height:100%;
+width:100%;
+background:white;
+}
+.portfolio .wrapper{
+width:900px;
+margin:auto;
+padding-top:50px;
+}
+.portfolio .wrapper h1{
+color:black;
+font-family:"HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:bolder;
+padding-bottom:5px;
+border-bottom:1px solid black;
+}
+.portfolio .wrapper h1 span{
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:lighter;
+}
+.portfolio .wrapper p{
+font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:normal;
+font-size:14px;
+line-height:19px;
+margin-bottom:30px;
+color:#333;
+}
+.portfolio .wrapper p span,.portfolio .wrapper p a{
+color:orange;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:lighter;
+}
+table.projects{
+width:100%;
+border-collapse:collapse;
+}
+table.projects tr{
+border-bottom:1px solid #777;
+}
+table.projects td{
+padding:10px 0;
+}
+.project{
+width:100%;
+border-top:1px solid #777;
+}
+.image{
+margin-left: 1000;
+top: 120;
+width:20%;
+}
+.project .title{
+font-family:"HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:bolder;
+font-size:20px;
+line-height:30px;
+color:black;
+}
+.project .links{
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:lighter;
+text-align:right;
+}
+.project .links a{
+color:black;
+margin:0 10px;
+}
+.project-details .details{
+width:40%;
+color:black;
+vertical-align:top;
+padding-top:40px;
+font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:normal;
+}
+.project-details .sub{
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:lighter;
+font-size:25px;
+line-height:35px;
+border-bottom:1px solid #dadada;
+padding-right:15px;
+padding-bottom:10px;
+}
+.project-details .about{
+padding-top:10px;
+color:#555;
+padding-right:15px;
+line-height:19px;
+}
+.project-details .about a{
+color:orange;
+}
+.project-details .images{
+padding-top:20px;
+padding-bottom:50px;
+}
+.project-details .images img{
+width:99%;
+border:1px solid #dadada;
+}
+.project-details .images .small{
+width:48%;
+}
+.details table td.label{
+font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:normal;
+}
+.details table td.text{
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:lighter;
+}
+/*Additional from Christian*/
+/*GENERAL*/
+.left-col {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.right-col {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+/*ABOUT*/
+
+
+/*TIMELINE*/
+.timeline {
+    width: 400px;
+}
+.timeline div {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.timeline .timeline-item {
+    width: 100%;
+}
+.timeline .timeline-item .info, .timeline .timeline-item .year {
+    color: #670000;
+    display: block;
+    float:left;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item .year {
+    font-size: 24px;
+    font-weight: bold;
+    width: 22%;
+}
+.timeline .timeline-item .info {
+    width: 100%;
+    width: 78%;
+    margin-left: -2px;
+    padding: 0 0 40px 35px;
+    border-left: 4px solid #aaa;
+    font-size: 14px;
+    line-height: 20px;
+}
+.timeline .timeline-item .marker {
+    background-color: #fff;
+    border: 4px solid #aaa;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: block;
+    float: right;
+    margin-right: -14px;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item .marker .dot {
+    background-color: white;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    border: 4px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 100px;
+    float: right;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .marker .dot, .timeline .timeline-item:hover .marker .dot {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #670000;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
