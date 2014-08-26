@@ -267,7 +267,7 @@ h4{
 h5{
   color:white;
   font-family:quicksandlight, Helvetica, Arial, sans-serif;
-  font-size:30px;
+  font-size:20px;
   text-align: center;
   margin:0px;
   padding-top: 10px;
@@ -277,7 +277,7 @@ h5{
     width:50%;
     box-sizing: border-box;
     padding: 0 30px;
-    margin: 70px auto;
+    margin: 60px auto;
     text-align: center;
 }
 
