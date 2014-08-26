@@ -274,6 +274,76 @@ h5{
   padding-top: 10px;
   padding-bottom:40px;
 }
+h6{
+  color:#525252;
+  font-family:quicksandbook, Helvetica, Arial, sans-serif;
+  font-size:20px;
+  display:block;
+  float:right;
+  padding-right:50px;
+  padding-bottom: 20px;
+  margin:10px;
+}
+h7{
+  color:#525252;
+  font-family:quicksandbook, Helvetica, Arial, sans-serif;
+  font-size:20px;
+  display:block;
+  /*float:center;*/
+  margin:10px;
+  text-align:center;
+  padding-bottom: 20px;
+}
+h8{
+  color:#525252;
+  font-family:quicksandbook, Helvetica, Arial, sans-serif;
+  font-size:20px;
+  display:block;
+  float:left;
+  padding-left:50px;
+  padding-bottom: 20px;
+  margin:10px;
+}
+.hook-1, .hook-2, .hook-3{
+  color:#B20000;
+  font-family:quicksandbook, Helvetica, Arial, sans-serif;
+  font-size:20px;
+  display:block;
+  text-align: center;
+  margin:0;
+  max-width:240px;
+  padding-bottom: 10px;
+}
+.hook-1{
+  float:right;
+  padding-right:20px;
+}
+.hook-2{
+  margin:auto auto;
+}
+.hook-3{
+  float:left;
+  padding-left:30px;
+  padding-bottom:30px;
+}
+.text-1, .text-2, .text-3{
+  display:block;
+  padding-bottom: 10px;
+  text-align: center;
+  margin:0;
+  max-width:275px;
+}
+.text-1{
+  float:right;
+  padding-right:5px;
+}
+.text-2{
+  margin:auto auto;
+}
+.text-3{
+  float:left;
+  padding-left:5px;
+}
 .left-col-about {
     width:50%;
     box-sizing: border-box;
@@ -289,29 +359,39 @@ h5{
     -webkit-border-top: 1px solid #DBDBDB;
     -moz-border-top: 1px solid #DBDBDB;
     -o-border-top: 1px solid #DBDBDB;
-    min-height:350px;
+    min-height:1100px;
 }
-.speaker-1{
+.speaker-1, .speaker-2, .speaker-3{
+  float:left;
+  width:33.3%;
+}
+/*.speaker-2{
   float:left;
   width:50%;
-}
-.speaker-2{
-  float:left;
-  width:50%;
-}
+}*/
 .image-1{
   display:block;
-  /*margin: auto;*/
   float:right;
   padding-right:20px;
-  padding-bottom: 30px;
+  padding-bottom:14px;
+  height:240px;
 }
 .image-2{
+  display:block;
+  margin: auto;
+  float:center;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:13px;
+  height:240px;
+}
+ .image-3{
   display:block;
   /*margin: auto;*/
   float:left;
   padding-left:20px;
-  padding-bottom: 30px;
+  padding-bottom:15px;
+  height:240px;
 }
 /*TIMELINE*/
 .timeline {
