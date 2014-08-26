@@ -239,6 +239,12 @@ font-weight:lighter;
   box-sizing: border-box;
   height:50%;
 }
+.img-about{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
 h2{
   color:black;
   font-family:quicksandlight, Helvetica, Arial, sans-serif;
@@ -264,7 +270,8 @@ h5{
   font-size:30px;
   text-align: center;
   margin:0px;
-  padding-bottom:50px;
+  padding-top: 10px;
+  padding-bottom:40px;
 }
 .left-col-about {
     width:50%;
