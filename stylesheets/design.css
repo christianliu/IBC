@@ -256,11 +256,21 @@ font-weight:lighter;
   box-sizing: border-box;
   height:50%;
 }
+.home-btn{
+  display: block;
+  margin: auto auto;
+  height:50px;
+  padding-top: 25px;
+  opacity:0.7;
+}
+.home-btn:hover{
+  opacity:1;
+}
 .img-about{
   display: block;
   margin: auto auto;
   padding-top:30px;
-  height:120px;
+  width:150px;
 }
 h2{
   color:black;
@@ -380,7 +390,7 @@ h8{
     -webkit-border-top: 1px solid #DBDBDB;
     -moz-border-top: 1px solid #DBDBDB;
     -o-border-top: 1px solid #DBDBDB;
-    min-height:1180px;
+    min-height:1200px;
 }
 .speaker-1, .speaker-2, .speaker-3{
   float:left;
