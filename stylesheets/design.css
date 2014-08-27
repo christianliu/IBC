@@ -468,6 +468,15 @@ h8{
   min-height: 100px;
 }
 
+/*SCHOLARS*/
+.scholars{
+  padding-bottom:30px;
+  display: block;
+  margin: auto auto;
+  padding-top:30px;
+  width:250px;
+}
+
 /*TIMELINE*/
 .timeline {
     width: 400px;
