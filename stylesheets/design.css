@@ -535,6 +535,16 @@ h8{
   text-align: center;
 }
 
+/*CONNECT*/
+.click-on-connect{
+  height:70px;
+  margin:10px;
+  opacity:0.8;
+}
+.click-on-connect:hover{
+  opacity:1;
+}
+
 /*TIMELINE*/
 .timeline {
     width: 400px;
