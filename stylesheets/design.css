@@ -278,6 +278,7 @@ h2{
   font-size:25px;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 15px;
 }
 h3{
   color:#B20000;
@@ -342,6 +343,7 @@ h8{
   margin:0;
   max-width:240px;
   padding-bottom: 10px;
+  padding-top:10px;
 }
 .hook-1{
   float:right;
@@ -390,7 +392,7 @@ h8{
     -webkit-border-top: 1px solid #DBDBDB;
     -moz-border-top: 1px solid #DBDBDB;
     -o-border-top: 1px solid #DBDBDB;
-    min-height:1200px;
+    min-height:1250px;
 }
 .speaker-1, .speaker-2, .speaker-3{
   float:left;
@@ -435,6 +437,24 @@ h8{
 .click-on:hover{
   opacity:1;
 }
+
+/*APPLY*/
+.img-apply{
+  width:100%;
+}
+.apply-btn{
+  width:450px;
+  opacity:0.6;
+}
+.apply-btn:hover{
+  opacity:1;
+}
+.learn-more{
+  width:910px;
+  padding-top:30px;
+  margin:auto auto;
+}
+
 /*TIMELINE*/
 .timeline {
     width: 400px;
