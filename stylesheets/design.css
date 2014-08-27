@@ -277,8 +277,8 @@ h2{
   font-family:quicksandbook, Helvetica, Arial, sans-serif;
   font-size:25px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 h3{
   color:#B20000;
@@ -311,7 +311,7 @@ h6{
   display:block;
   float:right;
   padding-right:50px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin:10px;
 }
 h7{
@@ -322,7 +322,7 @@ h7{
   /*float:center;*/
   margin:10px;
   text-align:center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 h8{
   color:#525252;
@@ -331,7 +331,7 @@ h8{
   display:block;
   float:left;
   padding-left:50px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   margin:10px;
 }
 .hook-1, .hook-2, .hook-3{
@@ -342,7 +342,7 @@ h8{
   text-align: center;
   margin:0;
   max-width:240px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-top:10px;
 }
 .hook-1{
@@ -392,7 +392,7 @@ h8{
     -webkit-border-top: 1px solid #DBDBDB;
     -moz-border-top: 1px solid #DBDBDB;
     -o-border-top: 1px solid #DBDBDB;
-    min-height:1250px;
+    min-height:1300px;
 }
 .speaker-1, .speaker-2, .speaker-3{
   float:left;
@@ -453,6 +453,19 @@ h8{
   width:910px;
   padding:30px 0;
   margin:auto auto;
+}
+.text-apply{
+  color:#B20000;
+  font-family:quicksandbold, Helvetica, Arial, sans-serif;
+  font-size:15px;
+  padding-bottom: 10px;
+  opacity:0.75;
+}
+.text-apply:hover{
+  opacity:1;
+}
+.bottom-apply{
+  min-height: 100px;
 }
 
 /*TIMELINE*/
