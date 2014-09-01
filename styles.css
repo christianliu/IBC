@@ -13,6 +13,12 @@
     padding: 0 30px;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 140%;
+    text-indent: 50px
+}
+
 /*ABOUT*/
 
 
